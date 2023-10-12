@@ -1,0 +1,218 @@
+*{
+   background-color: black;
+    margin: 0px;
+    padding: 0;
+}
+.header{
+    width:1412.800px;
+    height: 216.500px;
+    color:rgb(153, 153, 153);
+    font-family:"Open Sans", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+    position:relative;
+    
+}
+.wrapper{
+    width: 1373px;
+    height: 216.400px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-left: 9.600px;
+    margin-right: 9.600px;
+    color: rgb(153, 153, 153);
+    font-family: "Open Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.brandname{
+    width: 800px;
+    height: 75.600px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 42px;
+    padding-bottom: 42px;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    font-family: "Open Sans", sans-serif;
+    font-size:18px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 31.5px;
+
+}
+.title{
+    width: 459px;
+    height:50.600px;
+    margin-left: 170.300px;
+    margin-right: 170.300px;
+    color:rgb(153, 153, 153);
+    font-family: "Playfair Display", serif;;
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 31.5px;
+    text-align:center ;
+    letter-spacing: 6.5px;
+}
+.description{
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+    line-height: 21px;
+    text-align: center;
+}
+.menubar{
+    width:1372.800px;
+    height: 56px;
+    border-top: .800px;
+    align-items: center;
+    border-color:rgb(47, 47, 47);
+    border-top-style: solid;
+    border-top-width:0.8px;
+    box-sizing: box;
+    color: rgb(153, 153, 153);
+    display: flex;
+    flex-wrap: wrap;
+    font-family:"Open Sans", sans-serif ;
+    font-size: 18px;
+    font-weight: 400;
+    justify-content: center;
+    line-height: 31.5px;
+    
+}
+.menu-wrap{
+box-sizing: border-box;
+color: rgb(153, 153, 153);
+display :block;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+font-weight :400;
+height :56px;
+line-height: 31.5px;
+overflow-wrap :break-word;
+position: relative;
+}
+.menu{
+    flex:1;
+    text-align: center;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 8px 12px;
+    position: relative;
+}
+.menu ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+.content{
+    width:1382.800px;
+    height: 1463.690px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 91px;
+    padding-bottom: 91px;
+    margin-left: 70px;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 55px;
+}
+.contenthead{
+    width:880px;
+    height: 61.300px;
+    margin-bottom: 63px;
+    text-align: center;
+}
+.heading{
+    color: white;
+    font-family: "Playfair Display", serif;
+    font-size: 42px;
+    font-weight: 700;
+    line-height: 61.30px;
+    text-align: center;
+}
+.images{
+    width:1140px;
+    height: 320px;
+    display: flex;
+    position: relative;
+    
+}
+.kopiko{
+    padding:30px;
+    width:507px;
+    height: 300px;
+
+}
+.topsection{
+    width:1120px;
+    height: 257.300px;
+    display: flex;
+    font-size: 18px;
+    font-family:"Open Sans", sans-serif ;
+    padding: 10px;
+    flex-wrap: wrap;
+    position: relative;
+    align-content: flex-start;
+
+}
+.h4-top{
+    width:1120px;
+    height: 33.200px;
+    margin-bottom: 38.150px;
+    color: white;
+    font-family:  "Playfair Display", serif;
+    font-size: 28.16px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 20px;
+}
+.para-top{
+    color: rgb(153, 153, 153);
+    width: 1120px;
+    margin-bottom: 30px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31.5px;
+
+}
+.para-top a{
+    color: red;
+   
+}
+.details{
+    width:1120px;
+    height: 312px;
+    color:rgb(153, 153, 153) ;
+}
+.footer{
+    color: rgb(153, 153, 153);
+    text-align: center;
+    padding: 30px;
+    font-weight: 400;
+    font-size: 13px;
+    font-family: "Open Sans", sans-serif;
+    letter-spacing: 0.800px;
+}
+.footer p a{
+    color: white;
+    text-decoration-line: none;
+    letter-spacing: 0.800px;
+}
+.products{
+    margin-top: 30px;
+    margin-bottom: 120px;
+
+}
